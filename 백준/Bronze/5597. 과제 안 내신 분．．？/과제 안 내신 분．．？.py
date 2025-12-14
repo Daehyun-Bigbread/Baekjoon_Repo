@@ -1,0 +1,10 @@
+# 5597 (12/15, https://www.acmicpc.net/problem/5597)
+
+student = [i for i in range(1, 31)]
+
+for _ in range(28):
+    num = int(input())
+    student.remove(num)
+
+print(min(student))
+print(max(student))
